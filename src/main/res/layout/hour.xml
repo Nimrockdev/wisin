@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="New Text"
+            android:id="@+id/hour"
+            android:paddingTop="15dp"
+            android:layout_marginTop="6dp" />
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="60dp"
+            android:id="@+id/icon_hour" />
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:text="New Text"
+            android:id="@+id/temp_hour"
+            android:textStyle="bold"
+            android:textColor="#ff000000"
+            android:layout_marginTop="6dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="3dp">
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="28dp"
+                    android:text="New Text"
+                    android:id="@+id/tmin_hour"
+                    android:textColor="#ff145cff"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:layout_width="75dp"
+                    android:layout_height="28dp"
+                    android:text="@string/cloudiness"
+                    android:id="@+id/desc_hour"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="28dp"
+                    android:text="New Text"
+                    android:id="@+id/nuv_hour" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="30dp">
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="28dp"
+                    android:text="New Text"
+                    android:id="@+id/tmax_hour"
+                    android:textSize="10dp"
+                    android:textColor="#ffff0000" />
+
+                <TextView
+                    android:layout_width="75dp"
+                    android:layout_height="28dp"
+                    android:text="@string/humidity"
+                    android:id="@+id/desc2_hour"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="28dp"
+                    android:text="New Text"
+                    android:id="@+id/hum_hour" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

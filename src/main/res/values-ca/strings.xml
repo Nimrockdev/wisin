@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Wisin</string>
+    <string name="hello_world">Hola mon!</string>
+    <string name="action_settings">Opcions</string>
+
+    <!-- Mensajes informativos -->
+    <string name="no_network">Impossible actualitzar: No hi ha un proveïdor de serveis activat.</string>
+
+    <!-- Errores -->
+    <string name="error_db">Database Error</string>
+    <string name="error_create_weather">Error creant l\'objecte temps.</string>
+    <string name="error_connection">Error de connexió, revisi la seva connexió.</string>
+    <string name="error_update">Impossible actualitzar en aquest moment.</string>
+
+    <!-- UI -->
+    <string name="refresh">Actualitzar</string>
+    <string name="current">Temps actual</string>
+    <string name="hours">Properes hores</string>
+    <string name="week">Previsió setmanal</string>
+    <string name="sunrise">Alba:</string>
+    <string name="sunset">Posta de sol:</string>
+    <string name="humidity">Humitat:</string>
+    <string name="pressure">Pressió:</string>
+    <string name="wind_speed">Velocitat del vent:</string>
+    <string name="wind_direction">Direcció del vent:</string>
+    <string name="cloudiness">Nuvositat:</string>
+    <string name="speed">Velocitat:</string>
+    <string name="rain">Pluja a les últimes 3h:</string>
+
+    <!-- Spinner -->
+    <string-array name="spvalues">
+        <item>Actual</item>
+        <item>Barcelona</item>
+        <item>Madrid</item>
+        <item>Sidney</item>
+        <item>London</item>
+        <item>Toronto</item>
+        <item>New York</item>
+    </string-array>
+</resources>

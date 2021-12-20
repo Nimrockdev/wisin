@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Wisin</string>
+    <string name="hello_world">Hola mundo!</string>
+    <string name="action_settings">Opciones</string>
+
+    <!-- Mensajes informativos -->
+    <string name="no_network">Imposible actualizar: No hay un proveedor de servicios activado.</string>
+
+    <!-- Errores -->
+    <string name="error_db">Database Error</string>
+    <string name="error_create_weather">Error creando el objeto tiempo.</string>
+    <string name="error_connection">Error de conexión, revise su conexión.</string>
+    <string name="error_update">Imposible actualizar en estos momentos</string>
+
+    <!-- UI -->
+    <string name="refresh">Actualizar</string>
+    <string name="current">Tiempo actual</string>
+    <string name="hours">Próximas horas</string>
+    <string name="week">Previsión semanal</string>
+    <string name="sunrise">Amanecer:</string>
+    <string name="sunset">Puesta de sol:</string>
+    <string name="humidity">Humedad:</string>
+    <string name="pressure">Presión:</string>
+    <string name="wind_speed">Velocidad del viento:</string>
+    <string name="wind_direction">Dirección del viento:</string>
+    <string name="cloudiness">Nubosidad:</string>
+    <string name="speed">Velocidad:</string>
+    <string name="rain">Lluvia en las últimas 3h:</string>
+
+    <!-- Spinner -->
+    <string-array name="spvalues">
+        <item>Actual</item>
+        <item>Barcelona</item>
+        <item>Madrid</item>
+        <item>Sidney</item>
+        <item>London</item>
+        <item>Toronto</item>
+        <item>New York</item>
+    </string-array>
+</resources>
